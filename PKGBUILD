@@ -2,15 +2,15 @@
 
 _pkgname=ice-ssb
 pkgname=ice-ssb
-pkgver=5.0.10
+pkgver=5.0.11
 pkgrel=1
 pkgdesc='ICE SSB'
 arch=(any)
 url='http://github.com/Apricity-OS/ice-ssb'
 license=(GPL)
 depends=("python-requests" "python-beautifulsoup4" "python2" "pygtk" "python2-gobject")
-source=("ice-ssb.tar.gz")
-sha256sums=('d6a0e69e0acd7d7d21495a39e36c2b9a161742be80d75b115f612ee7f1f5395c')
+source=(ice-ssb)
+sha256sums=('SKIP')
 install=ice-ssb.install
 
 package() {
