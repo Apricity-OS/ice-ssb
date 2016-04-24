@@ -9,7 +9,7 @@ arch=(any)
 url='http://github.com/Apricity-OS/ice-ssb'
 license=(GPL)
 depends=("python-requests" "python-beautifulsoup4" "python2" "pygtk" "python2-gobject")
-source=(ice-ssb)
+source=(ice-ssb.tar.gz)
 sha256sums=('SKIP')
 install=ice-ssb.install
 
